@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, routes for all pages, profile setup modal integration, and theme provider.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including products, orders, alterations, appointments, user profiles, admin functions, and Stripe payment integration.",
+  "frontend/src/components/Layout.tsx": "Main layout component with responsive header navigation, mobile menu, authentication controls, and footer with branding and social links.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile setup requiring name, email, and phone number.",
+  "frontend/src/pages/HomePage.tsx": "Landing page with hero section, services overview, craftsmanship showcase, and personalized service sections using provided assets.",
+  "frontend/src/pages/ProductsPage.tsx": "Product catalog page with category filtering, product grid display, and navigation to product details.",
+  "frontend/src/pages/ProductDetailPage.tsx": "Detailed product view with image gallery, quantity selector, and Stripe checkout integration.",
+  "frontend/src/pages/AlterationsPage.tsx": "Alteration request submission form and history view with status tracking in tabbed interface.",
+  "frontend/src/pages/AppointmentsPage.tsx": "Appointment booking system with calendar, time slot selection, service type picker, and appointment history.",
+  "frontend/src/pages/DashboardPage.tsx": "User dashboard displaying orders, alterations, appointments statistics and detailed history with profile information.",
+  "frontend/src/pages/AdminPage.tsx": "Admin panel for product management (CRUD operations) and Stripe configuration with dialog-based forms.",
+  "frontend/src/pages/PaymentSuccessPage.tsx": "Payment success confirmation page with navigation to dashboard and products.",
+  "frontend/src/pages/PaymentFailurePage.tsx": "Payment cancellation page with options to retry or return home.",
+  "frontend/src/index.css": "Global styles with OKLCH color system optimized for elegant, premium tailor shop aesthetic in both light and dark modes."
+}
